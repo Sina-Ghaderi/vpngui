@@ -1,5 +1,5 @@
 # vpngui
-A VPN Client GUI in native Go and Win32 API's compatible with Windows 7, 8, and higher. 
+A VPN Client GUI in native Go and Win32 API's compatible with Windows 7, 8 and higher. 
 This source code does not include the network stack. You can develop your own VPN client library and integrate it into this source.
 
 <p align="center">
