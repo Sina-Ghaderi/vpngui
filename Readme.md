@@ -19,7 +19,7 @@ Setting up the build environment:
 - Install the required packages using `pacman -S base-devel mingw-w64-x86_64-make`
 - Clone the source with `git clone https://github.com/Sina-Ghaderi/vpngui.git`
 - Navigate to the `vpngui` folder and run the command `make` to start the build process
-- After a successful build, the installer output will be located in the `bin/output` folder
+- After a successful build, the installer output should be located in the `bin/output` folder
 
 
 ### A few notes
