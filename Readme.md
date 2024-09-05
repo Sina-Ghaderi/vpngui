@@ -25,3 +25,6 @@ Setting up the build environment:
 ### A few notes
 The source code includes three executable files: snixconnect, launcher, and service. The snixconnect executable requires system or admin access to run. While the graphical interface itself does not need this access, it is usually necessary to set up the tunnel interface. To launch the snixconnect GUI for users without admin access, the launcher executable sends the user's session ID to the service through a named pipe. The service, running with system access, uses its [Token](https://learn.microsoft.com/en-us/windows/win32/secauthz/access-tokens) and system privileges to start the snixconnect GUI process in the user's session (using [CreateProcessAsUser](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera))
 
+### Licence
+This work is licenced under the terms of GNU GENERAL PUBLIC LICENSE v3
+
